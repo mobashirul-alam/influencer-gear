@@ -4,7 +4,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 50px 100px;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -12,6 +13,8 @@ body{
 nav{
     display: flex;
     position: relative; 
+    margin: 0 100px;
+    margin-top: 50px;
 }
 .nav-title{
     color: #3A3A3A;
@@ -33,7 +36,8 @@ nav{
 
 .banner{
     display: flex;
-    margin-top: 80px;
+    margin: 0 100px;
+    margin-top: 80px;   
 }
 .banner-left{
     display: flex;
@@ -78,11 +82,13 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
 /* --------banner end-------- */
 
 /* --------logo extra-------- */
 
 .logos{
+    margin: 0 100px;
     margin-top: 120px;
     border-top: 1px solid #3a3a3aaf;
     border-bottom: 1px solid #3a3a3aaf;
@@ -98,11 +104,15 @@ nav{
     product gallery style
 --------------------------- */
 
+.product-gallery{
+    margin: 0 100px;
+}
 .gallery-heading{
     font-size: 32px;
     color: #3A3A3A;
     text-align: center;
     margin-top: 120px;
+    margin-bottom: 50px;
 }
 .product-list{
     display: grid;
@@ -154,6 +164,7 @@ nav{
     background-color: transparent;
     /* border: 1px solid; */
     margin-top: 50px;
+    margin-bottom: 80px;
     
 }
 .button-see-more a{
@@ -162,9 +173,20 @@ nav{
     font-weight: 600;
     line-height: 24px;
     color: #E02C6D;  
+    
 }
 /* ---------------------
     product gallery end
    -------------------- */
 
-   
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+footer>div p,h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
