@@ -1,0 +1,28 @@
+
+/* ------font------ */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 100px;
+
+}
+
+/* ------nav bar start------ */
+nav{
+    border: 2px solid;
+    display: flex;
+    position: relative;
+    
+}
+.menu{
+    position: absolute;
+    right: -20px;
+    align-self: center;
+}
+
+.menu a{
+    margin-right: 30px;
+    text-decoration: none;  
+}
+/* -------nav bar end------- */
