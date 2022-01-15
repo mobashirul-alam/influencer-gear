@@ -234,6 +234,8 @@ footer>div>p i{
           Media Query 
     -------------------------*/
 
+/* ----------mobile devices---------- */
+
 @media only screen and (max-width:688px) {
     body{
         margin: 0;
@@ -297,4 +299,27 @@ footer>div>p i{
         display: none;
     }
     
-}    
+} 
+
+/* ----------tablet devices---------- */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    nav{
+        margin: 20px 50px;
+    }
+    .banner-right img{
+        width: 100%;
+    .product-list{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);   
+    }
+    .product-gallery{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .product{
+        width: 100%;
+        position: relative;
+        right: 73px;
+    }
+}
