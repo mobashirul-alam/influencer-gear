@@ -179,26 +179,7 @@ nav{
     product gallery end
    -------------------- */
 
-footer{
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 30px 0;
-    
-}
-footer>div p,h2{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 5px;
-}
-footer>div p{
-    font-size: 14px;
-}
-footer>div>p i{
-    font-size: 18px;
-    margin: 0 8px;
-}
-
+/* ------extra section style------  */
 .extra-section{
     display: flex;
     justify-content: space-around;
@@ -225,3 +206,68 @@ footer>div>p i{
     width: 50px;
     margin-right: 20px;
 }
+/* -------extra section end-------  */   
+
+/* --------footer start--------  */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    
+}
+footer>div p,h2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+footer>div p{
+    font-size: 14px;
+}
+footer>div>p i{
+    font-size: 18px;
+    margin: 0 8px;
+}
+/* ---------footer end---------  */
+
+/* --------------------------
+          Media Query 
+    -------------------------*/
+
+@media only screen and (max-width:688px) {
+    .main-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .banner, .extra-section{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .banner-right{
+        order: 1;
+        text-align: center;
+    }
+    .banner-left{
+        order: 2;
+        text-align: center;
+    }
+    .gallery-heading h1{
+        width: 100%;
+        font-size: 24px;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .product-list{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .extra-section{
+        width: 100%;
+        text-align: center;
+    }
+}    
