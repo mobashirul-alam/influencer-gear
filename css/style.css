@@ -198,3 +198,30 @@ footer>div>p i{
     font-size: 18px;
     margin: 0 8px;
 }
+
+.extra-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.payment-method h3{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.payment-method img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+.available-country h3{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.available-country img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
